@@ -1,0 +1,28 @@
+{
+	"name": "Packer Of Creogen",
+	"type": "GenericCrafter",
+	"description": "Packs creogen",
+	"health": 400,
+	"liquidCapacity": 50,
+	"hasPower": true,
+	"size": 2,
+	"hasLiquids": true,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2.0,
+		"liquid": {
+			"liquid": "cryofluid",
+			"amount": 0.02,	
+			"booster": false,
+		},
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 200 },
+		{ "item": "copper", "amount": 100 },
+		{ "item": "candy", "amount": 350 },	],
+	"category": "crafting",
+	"research": "copper-wall",
+	"idleSound": "machine",
+	"outputItem": {"item": "packed cryofluid", "amount": 1}
+}

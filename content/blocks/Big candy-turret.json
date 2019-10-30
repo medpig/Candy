@@ -1,0 +1,43 @@
+{
+	"type": "burstTurret",
+	"name": "Big Candy Turret",
+	"description": "She shoots big sticky candies",
+	"health": 4000,
+	"size": 3,
+	"reload": 90,
+	"range": 800,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 1,
+	"rotatespeed": 1,
+	"ammo": {
+		"candy": {
+			"speed": 25.0,
+			"damage": 350,
+			"bulletWidth": 8,
+			"bulletHeight": 15,
+			"backColor":"00ff00",
+			"frontColor":"00ff00",
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 1
+		},
+		"ice_candy": {
+			"speed": 40.0,
+			"damage": 500,
+			"bulletWidth": 8,
+			"bulletHeight": 15,
+			"backColor":"0000ff",
+			"frontColor":"0000FF",
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 1
+		}
+	},
+	"requirements": [
+		{ "item": "ice_candy", "amount": 2000 },
+		{ "item": "silicon", "amount": 1000 },
+		{ "item": "thorium", "amount": 500 }
+	],
+	"category": "turret",
+	"research": "duo"
+}

@@ -1,0 +1,14 @@
+{
+	"type": "Conveyor",
+	"name": "Candy conveyor",
+	"description": "Candy conveyor",
+	"requirements": [
+		{"item": "titanium", "amount": 2},
+		{"item": "copper", "amount": 2},
+		{"item": "candy", "amount": 1},
+	],
+	"category": "distribution",
+	"speed": 0.16666666667,
+	"itemCapacity" : 10,
+	"research": "titanium-conveyor"
+}

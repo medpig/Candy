@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "packed cryofluid",
+	"description": "packet creo",
+	"hardness": 3,
+	"cost": 4.0,
+	"color": "0000FF"
+}

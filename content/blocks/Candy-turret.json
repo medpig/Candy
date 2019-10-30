@@ -1,0 +1,31 @@
+{
+	"type": "DoubleTurret",
+	"name": "Candy Turret",
+	"description": "Candy is herdet that stone",
+	"health": 1000,
+	"size": 1,
+	"reload": 8,
+	"range": 80,
+	"ammoUseEffect": "shellEjectSmall",
+	"targetAir": true,
+	"targetGround": true,
+	"inaccuracy": 1,
+	"rotatespeed": 50,
+	"ammo": {
+		"candy": {
+			"speed": 10.0,
+			"damage": 75,
+			"bulletWidth": 4,
+			"bulletHeight": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 1
+		}
+	},
+	"requirements": [
+		{ "item": "candy", "amount": 550 }
+	],
+	"category": "turret",
+	"research": "duo"
+}
+

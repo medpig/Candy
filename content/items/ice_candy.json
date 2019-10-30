@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "ice candy",
+	"description": "Sweet as candy, but cold",
+	"hardness": 3,
+	"cost": 4.0,
+	"color": "0E0EBB"
+}

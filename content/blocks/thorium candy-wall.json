@@ -1,0 +1,12 @@
+{
+	"name": "Thorium Candy Wall",
+	"description": "Candy Wall.",
+	"type": "Wall",
+	"health": 3000,
+	"size": 1,
+	"requirements": [
+		{ "item": "thorium_candy", "amount": 30}
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}

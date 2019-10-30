@@ -1,0 +1,8 @@
+{
+	"name": "Melted candy",
+	"description": "Melted sweet candy",
+	"temperature": 0.7,
+    "viscosity": 0.5,
+    "effect": "melting",
+    "color": "00FFC7"
+}

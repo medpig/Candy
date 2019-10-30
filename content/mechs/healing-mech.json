@@ -1,0 +1,19 @@
+{
+"name": "Candy Healing Mech",
+"description": "Candy fur that heals buildings",
+"speed": 0.6,
+"boostSpeed": 1.4,
+"buildPower": 3.0,
+"engineColor": "00df00",
+"flying": false,
+"health": 2500,
+"weaponOffsetX": 5,
+"weapon": {
+"name": "healing-blaster",
+"length": 4,
+"reload": 10.0,
+"alternate": false,
+"bullet": "healBullet"
+
+}
+}

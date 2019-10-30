@@ -1,0 +1,17 @@
+{
+	"name": "Candy Healing Mech Pad",
+	"description": "Transform into the Candy Healing mech.",
+	"type": "MechPad",
+	"mech": "healing-mech",
+	"size": 2,
+	"consumes": {
+		"power": 0.5
+	},
+	"category": "upgrade",
+	"research": "wraith-factory",
+	"requirements": [
+		{ "item": "candy", "amount": 450 },
+		{ "item": "silicon", "amount": 400 },
+		{ "item": "graphite", "amount": 500 },
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "Candy electric generator",
+	"description": "Sweet energy",
+	"size": 2,
+	"health":500,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 60,
+	"powerProduction": 8.33333,
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "candy", "amount": 2 }
+			],
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "candy", "amount": 100 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "copper", "amount": 100 }
+	],
+	"category": "power",
+	"research": "turbine-generator"
+}

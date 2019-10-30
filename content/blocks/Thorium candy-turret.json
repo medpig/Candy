@@ -1,0 +1,43 @@
+{
+	"type": "burstTurret",
+	"name": "Thorium Candy Turret",
+	"description": "Shoots candy",
+	"health": 5000,
+	"size": 3,
+	"reload": 80,
+	"range": 1200,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 1,
+	"rotatespeed": 1,
+	"ammo": {
+		"candy": {
+			"speed": 25.0,
+			"damage": 450,
+			"bulletWidth": 8,
+			"bulletHeight": 15,
+			"backColor":"00ff00",
+			"frontColor":"00ff00",
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 1
+		},
+		"thorium_candy": {
+			"speed": 50.0,
+			"damage": 800,
+			"bulletWidth": 8,
+			"bulletHeight": 15,
+			"backColor":"cc0066",
+			"frontColor":"cc0066",
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 1
+		}
+	},
+	"requirements": [
+		{ "item": "ice_candy", "amount": 1250 },
+		{ "item": "silicon", "amount": 500 },
+		{ "item": "thorium_candy", "amount": 750 }
+	],
+	"category": "turret",
+	"research": "duo"
+}

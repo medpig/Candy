@@ -1,0 +1,17 @@
+{
+	"name": "Candy Electro Mech Pad",
+	"description": "Transform into the Candy Electra mech.",
+	"type": "MechPad",
+	"mech": "candy-electric-mech",
+	"size": 2,
+	"consumes": {
+		"power": 0.5
+	},
+	"category": "upgrade",
+	"research": "wraith-factory",
+	"requirements": [
+		{ "item": "ice_candy", "amount": 650 },
+		{ "item": "silicon", "amount": 400 },
+		{ "item": "graphite", "amount": 500 },
+	]
+}

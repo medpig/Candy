@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "thorium_candy",
+	"description": "Thorium candy, good ammunition and fuel",
+	"hardness": 6,
+	"cost": 4.0,
+	"color": "ff8694"
+}

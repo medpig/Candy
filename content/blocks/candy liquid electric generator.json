@@ -1,0 +1,31 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "Candy liquid electric generator",
+	"description": "Candy liquid energy",
+	"size": 2,
+	"health":500,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 60,
+	"powerProduction": 50,
+	"consumes": {
+			"liquid": {
+			"liquid": "melted-candy",
+			"amount": 0.1,	
+			"booster": false,
+		},
+		"items": {
+			"items": [
+				{ "item": "packed cryofluid", "amount": 2 }
+			],
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "candy", "amount": 400 },
+		{ "item": "silicon", "amount": 200 },
+		{ "item": "copper", "amount": 350 }
+	],
+	"category": "power",
+	"research": "turbine-generator"
+}

@@ -1,0 +1,35 @@
+{
+	"name": "Thontium candy facrory",
+	"type": "GenericCrafter",
+	"description": "Produces liquid candies and thorium thorium candies",
+	"health": 300,
+	"liquidCapacity": 50,
+	"hasPower": true,
+	"size": 2,
+	"hasLiquids": true,
+	"craftTime": 30,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 4.0,
+	"items":{
+			"items":[
+				{"item":"thorium","amount":2}
+			]
+		},
+
+		"liquid": {
+			"liquid": "melted-candy",
+			"amount": 0.05,	
+			"booster": false,
+		},
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 700 },
+		{ "item": "copper", "amount": 750 },
+		{ "item": "candy", "amount": 900 },
+		{ "item": "silicon", "amount": 600 }
+	],
+	"category": "crafting",
+	"research": "copper-wall",
+	"idleSound": "machine",
+	"outputItem": {"item": "thorium_candy", "amount": 1}}

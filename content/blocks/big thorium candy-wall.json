@@ -1,0 +1,12 @@
+{
+	"name": "Big Thorium Candy Wall",
+	"description": "Candy Wall.",
+	"type": "Wall",
+	"health": 12000,
+	"size": 2,
+	"requirements": [
+		{ "item": "thorium_candy", "amount": 120}
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}

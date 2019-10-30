@@ -1,0 +1,24 @@
+{
+	"name": "Candy Drill",
+	"description": "It's a sweet drill.",
+	"type": "Drill",
+	"size": 2,
+	"tier": 6,
+	"health":600,
+	"drillTime": 2,
+	"consumes": {
+		"power": 4.0,
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.2,
+			"booster": false
+		}
+	},
+	"requirements": [
+		{ "item": "candy", "amount": 400 },
+		{ "item": "silicon", "amount": 500 },
+		{ "item": "copper", "amount": 1000 }
+	],
+	"category": "production",
+	"research": "laser-drill"
+}

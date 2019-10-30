@@ -1,0 +1,28 @@
+{
+	"type": "GenericCrafter",
+	"name": "Candy foundry",
+	"description": "Melts candy into candy liquid.",
+	"liquidCapacity": 50,
+	"outputLiquid": {"liquid": "melted-candy", "amount": 2},
+	"health":400,
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 10,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2.0,
+		"item": "candy"
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 150 },
+		{ "item": "copper", "amount": 150 },
+		{ "item": "candy", "amount": 500 },
+		{ "item": "silicon", "amount": 200 }
+	],
+	"category": "crafting",
+	"research": "kiln",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
+

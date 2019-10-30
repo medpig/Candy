@@ -1,0 +1,19 @@
+{
+	"name": "Candy Electro Mech",
+	"description": "An unnaturally elongated mech. Spews messy lightning all over your enemies.",
+	"speed": 1.0,
+	"boostSpeed": 2.0,
+	"buildPower": 2.0,
+	"engineColor": "0000df",
+	"flying": true,
+	"health": 2000,
+	"weaponOffsetX": 4,
+	"weapon": {
+		"name": "electric-blaster",
+		"damage": 100,
+		"length": 2.0,
+		"reload": 10,
+		"alternate": false,
+		"bullet": "lightning"
+	}
+}

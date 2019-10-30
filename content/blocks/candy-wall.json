@@ -1,0 +1,12 @@
+{
+	"name": "Candy Wall",
+	"description": "Candy Wall.",
+	"type": "Wall",
+	"health": 1500,
+	"size": 1,
+	"requirements": [
+		{ "item": "candy", "amount": 30}
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}

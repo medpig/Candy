@@ -1,0 +1,37 @@
+{
+	"name": "Candy mend projector",
+	"description": "Candy regeneration",
+	"type": "mendProjector",
+	"health": 2000,
+	"size": 3,
+	"craftTime": 6,
+	"reload" : 100,
+	"range" : 160,
+	"healPercent" : 20,
+	"itemCapacity": 10,
+	"hasPower": true,
+	"phaseBoost" : 20,
+	"phaseRangeBoost" : 20,
+	"power": 2.5,
+	"consumes": {
+		"power": 2.5,
+		"items": {
+			"items": [
+				{
+					"item": "phase-fabric",
+					"amount": 1
+				}
+			],
+			"optional": true, 
+			"booster": true
+		}
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 200 },
+		{ "item": "candy", "amount":150 },
+		{ "item": "graphite", "amount": 100 },
+		{ "item": "titanium", "amount": 100 }
+	],
+	"category": "effect",
+	"research": "mend-projector"
+}

@@ -1,0 +1,31 @@
+{
+	"type": "burstTurret",
+	"name": "Ice Candy Turret",
+	"description": "With mind ice fragile gun , but she powerfully shoots",
+	"health": 2000,
+	"size": 2,
+	"reload": 30,
+	"range": 320,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 1,
+	"rotatespeed": 15,
+	"ammo": {
+		"ice_candy": {
+			"speed": 10.0,
+			"damage": 150,
+			"bulletWidth": 5,
+			"bulletHeight": 9,
+			"backColor":"0000ff",
+			"frontColor":"0000FF",
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 1
+		}
+	},
+	"requirements": [
+		{ "item": "ice_candy", "amount": 1000 }
+	],
+	"category": "turret",
+	"research": "duo"
+}
+

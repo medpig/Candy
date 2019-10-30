@@ -1,0 +1,35 @@
+{
+	"name": "Ice candy facrory",
+	"type": "GenericCrafter",
+	"description": "Produces ice candy",
+	"health": 300,
+	"liquidCapacity": 50,
+	"hasPower": true,
+	"size": 2,
+	"hasLiquids": true,
+	"craftTime": 30,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2.0,
+	"items":{
+			"items":[
+				{"item":"packed cryofluid","amount":2}
+			]
+		},
+
+		"liquid": {
+			"liquid": "melted-candy",
+			"amount": 0.1,	
+			"booster": false,
+		},
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 700 },
+		{ "item": "copper", "amount": 700 },
+		{ "item": "candy", "amount": 700 },
+		{ "item": "silicon", "amount": 700 }
+	],
+	"category": "crafting",
+	"research": "copper-wall",
+	"idleSound": "machine",
+	"outputItem": {"item": "ice_candy", "amount": 1}}

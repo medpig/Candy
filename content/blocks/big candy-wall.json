@@ -1,0 +1,12 @@
+{
+	"name": "Big Candy Wall",
+	"description": "Candy Wall 2x2.",
+	"type": "Wall",
+	"health": 6000,
+	"size": 2,
+	"requirements": [
+		{ "item": "candy", "amount": 120}
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}

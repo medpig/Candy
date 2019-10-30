@@ -1,0 +1,35 @@
+{
+	"name": "Super multi press",
+	"type": "GenericCrafter",
+	"description": "Produces graphite",
+	"health": 300,
+	"liquidCapacity": 50,
+	"hasPower": true,
+	"size": 3,
+	"itemCapacity": 50,
+	"hasLiquids": true,
+	"craftTime": 30,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 3.0,
+	"items":{
+			"items":[
+				{"item":"coal","amount":2}
+			]
+		},
+
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.1,	
+			"booster": false,
+		},
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 400 },
+		{ "item": "candy", "amount": 100 },
+		{ "item": "silicon", "amount": 100 }
+	],
+	"category": "crafting",
+	"research": "copper-wall",
+	"idleSound": "machine",
+	"outputItem": {"item": "graphite", "amount": 10}}

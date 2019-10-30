@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "candy",
+	"description": "Sweet as candy, but is solid as a rock",
+	"hardness": 6,
+	"cost": 4.0,
+	"color": "007c66"
+}
