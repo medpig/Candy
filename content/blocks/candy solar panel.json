@@ -1,0 +1,13 @@
+{
+	"type": "SolarGenerator",
+	"name": "Candy solar panel",
+	"description": "This solar panel one of the best energy generators",
+	"size": 3,
+	"health": 5000,
+    "powerProduction": 100,
+	"requirements": [
+		{"item": "candy", "amount": 450},
+		{"item": "titanium", "amount": 250}
+	],
+	"category": "power"
+}
