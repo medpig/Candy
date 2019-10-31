@@ -1,0 +1,32 @@
+{
+	"type": "ChargeTurret",
+	"name": "Candy laser",
+	"description": "Candy laser",
+	"health": 2000,
+	"size": 3,
+	"reload": 40,
+	"range": 200,
+	"chargeTime": 30,
+	"chargeMaxDelay": 100,
+	"chargeEffects": 2,
+	"cooldown": 1.0 ,
+	"recoil": 2 ,
+	"powerUse": 4.0 ,
+	"shootShake": 4 ,
+	"shootEffect": "lancerLaserShoot" ,
+	"smokeEffect": "lancerLaserShootSmoke" ,
+	"chargeEffect": "lancerLaserCharge" ,
+	"chargeBeginEffect": "lancerLaserChargeBegin" ,
+	"shootType": "lancerLaser",
+	"inaccuracy": 0.1,
+	"rotatespeed": 12,
+	"burstSpacing": 6,
+	"requirements": [
+		{ "item": "candy", "amount": 750 },
+		{ "item": "silicon", "amount": 500 },
+		{ "item": "copper", "amount": 800 }
+	],
+	"category": "turret" ,
+	"shootSound": "laser" ,
+	"research": "duo" 
+}
