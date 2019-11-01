@@ -7,13 +7,13 @@
 	"hasPower": true,
 	"size": 2,
 	"hasLiquids": true,
-	"craftTime": 30,
+	"craftTime": 40,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
 		"power": 2.0,
 		"items":{
 			"items":[
-				{"item":"silicon","amount":2}
+				{"item":"silicon","amount":4}
 			]
 		},
 

@@ -12,7 +12,7 @@
 	"ammo": {
 		"candy": {
 			"speed": 25.0,
-			"damage": 350,
+			"damage": 175,
 			"bulletWidth": 8,
 			"bulletHeight": 15,
 			"backColor":"00ff00",
@@ -23,7 +23,7 @@
 		},
 		"ice_candy": {
 			"speed": 40.0,
-			"damage": 500,
+			"damage": 250,
 			"bulletWidth": 8,
 			"bulletHeight": 15,
 			"backColor":"0000ff",
@@ -34,7 +34,7 @@
 		}
 	},
 	"requirements": [
-		{ "item": "ice_candy", "amount": 2000 },
+		{ "item": "ice_candy", "amount": 1000 },
 		{ "item": "silicon", "amount": 1000 },
 		{ "item": "thorium", "amount": 500 }
 	],

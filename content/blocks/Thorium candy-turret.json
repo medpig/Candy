@@ -12,7 +12,7 @@
 	"ammo": {
 		"candy": {
 			"speed": 25.0,
-			"damage": 450,
+			"damage": 225,
 			"bulletWidth": 8,
 			"bulletHeight": 15,
 			"backColor":"00ff00",

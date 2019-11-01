@@ -14,7 +14,7 @@
 	"ammo": {
 		"candy": {
 			"speed": 10.0,
-			"damage": 75,
+			"damage": 37,
 			"bulletWidth": 4,
 			"bulletHeight": 10,
 			"shootEffect": "shootSmall",
@@ -23,7 +23,7 @@
 		}
 	},
 	"requirements": [
-		{ "item": "candy", "amount": 550 }
+		{ "item": "candy", "amount": 350 }
 	],
 	"category": "turret",
 	"research": "duo"

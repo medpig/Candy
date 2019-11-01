@@ -1,0 +1,17 @@
+{
+	"name": "Candy Rocketry mech Pad",
+	"description": "Transform into the Candy rokectry mech.",
+	"type": "MechPad",
+	"mech": "rocketry-mech",
+	"size": 2,
+	"consumes": {
+		"power": 0.5
+	},
+	"category": "upgrade",
+	"research": "wraith-factory",
+	"requirements": [
+		{ "item": "thorium_candy", "amount": 450 },
+		{ "item": "silicon", "amount": 400 },
+		{ "item": "graphite", "amount": 500 },
+	]
+}
