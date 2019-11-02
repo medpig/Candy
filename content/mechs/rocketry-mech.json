@@ -12,7 +12,8 @@
 "weapon": {
 "name": "rocketry-blaster",
 "length": 20,
-"reload": 20.0,
+"shots": 3,
+"reload": 40.0,
 "alternate": false,
 "bullet": "missileSwarm"
 }
