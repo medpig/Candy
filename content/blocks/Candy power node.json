@@ -1,0 +1,17 @@
+{
+"type": "powerNode",
+"name" : "Candy power node",
+"description": "Candy power node",
+"size" : 3,
+"maxNodes" : 5,
+"laserRange" : 80,
+"health" : 1000,
+"requirements": [
+{ "item": "silicon", "amount": 150 },
+{ "item": "graphite", "amount": 150 },
+{ "item": "titanium", "amount": 125 },
+{ "item": "candy", "amount": 250 },
+],
+"category": "power",
+"research": "copper-wall"
+}

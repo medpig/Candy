@@ -1,0 +1,15 @@
+{
+	"type": "battery",
+	"name": "Candy battery",
+	"size": 3,
+	"health": 5000,
+	"category": "power",
+	"requirements": [
+		{"item": "graphite", "amount": 450},
+		{"item": "titanium", "amount": 350},
+		{"item": "candy", "amount": 650}
+		{"item": "thorium_candy", "amount": 300}
+	],
+	"consumes": { "powerBuffered": 500000 },
+	"research": "battery-large"
+}
