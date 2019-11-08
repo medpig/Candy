@@ -1,0 +1,23 @@
+{
+"name": "Sniper mech",
+"description": "Sniper mech",
+"speed": 0.8,
+"boostSpeed": 1.1,
+"buildPower": 1.7,
+"engineColor": "484848",
+"weaponOffsetY":3,
+"flying": false,
+"health": 1200,
+"weaponOffsetX": 5,
+"weapon": {
+"name": "sniper-blaster",
+"length": 20,
+"range":4,
+"shots": 1,
+"speed":30,
+"reload": 70.0,
+"alternate": false,
+"bullet": "standardCopper"
+}
+
+}

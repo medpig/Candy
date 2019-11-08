@@ -2,7 +2,7 @@
 	"type": "ChargeTurret",
 	"name": "Candy laser",
 	"description": "Candy laser",
-	"health": 2000,
+	"health": 1250,
 	"size": 3,
 	"reload": 40,
 	"range": 200,
@@ -22,9 +22,9 @@
 	"rotatespeed": 12,
 	"burstSpacing": 6,
 	"requirements": [
-		{ "item": "candy", "amount": 750 },
-		{ "item": "silicon", "amount": 500 },
-		{ "item": "copper", "amount": 800 }
+		{ "item": "candy", "amount": 430 },
+		{ "item": "silicon", "amount": 400 },
+		{ "item": "copper", "amount": 630 }
 	],
 	"category": "turret" ,
 	"shootSound": "laser" ,

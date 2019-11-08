@@ -1,0 +1,17 @@
+{
+	"name": "Sniper mech Pad",
+	"description": "Transform into the sniper mech.",
+	"type": "MechPad",
+	"mech": "sniper-mech",
+	"size": 2,
+	"consumes": {
+		"power": 0.4
+	},
+	"category": "upgrade",
+	"research": "wraith-factory",
+	"requirements": [
+		{ "item": "copper", "amount": 250 },
+		{ "item": "silicon", "amount": 300 },
+		{ "item": "graphite", "amount": 200 },
+	]
+}

@@ -2,7 +2,7 @@
 	"type": "burstTurret",
 	"name": "Ice Candy Turret",
 	"description": "With mind ice fragile gun , but she powerfully shoots",
-	"health": 2000,
+	"health": 1500,
 	"size": 2,
 	"reload": 30,
 	"range": 320,
@@ -12,7 +12,7 @@
 	"ammo": {
 		"ice_candy": {
 			"speed": 10.0,
-			"damage": 345,
+			"damage": 75,
 			"bulletWidth": 5,
 			"bulletHeight": 9,
 			"backColor":"0000ff",

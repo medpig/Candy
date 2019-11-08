@@ -12,7 +12,7 @@
 	"ammo": {
 		"candy": {
 			"speed": 25.0,
-			"damage": 225,
+			"damage": 75,
 			"bulletWidth": 8,
 			"bulletHeight": 15,
 			"backColor":"00ff00",
@@ -23,7 +23,7 @@
 		},
 		"thorium_candy": {
 			"speed": 50.0,
-			"damage": 800,
+			"damage": 180,
 			"bulletWidth": 8,
 			"bulletHeight": 15,
 			"backColor":"cc0066",

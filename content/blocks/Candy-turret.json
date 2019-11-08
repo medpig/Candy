@@ -2,7 +2,7 @@
 	"type": "DoubleTurret",
 	"name": "Candy Turret",
 	"description": "Candy is herdet that stone",
-	"health": 1000,
+	"health": 750,
 	"size": 1,
 	"reload": 8,
 	"range": 80,
@@ -23,7 +23,7 @@
 		}
 	},
 	"requirements": [
-		{ "item": "candy", "amount": 350 }
+		{ "item": "candy", "amount": 250 }
 	],
 	"category": "turret",
 	"research": "duo"
