@@ -7,7 +7,7 @@
 	"hasPower": true,
 	"hasItems": true,
 	"itemDuration": 60,
-	"powerProduction": 50,
+	"powerProduction": 16.6666666667,
 	"consumes": {
 			"liquid": {
 			"liquid": "melted-candy",
@@ -22,7 +22,7 @@
 		}
 	},
 	"requirements": [
-		{ "item": "candy", "amount": 400 },
+		{ "item": "candy", "amount": 350 },
 		{ "item": "silicon", "amount": 200 },
 		{ "item": "copper", "amount": 350 }
 	],
